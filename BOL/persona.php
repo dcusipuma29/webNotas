@@ -1,13 +1,16 @@
 <?php
 class Persona
 {
-	private $id;
 	private $nombres;
-	private $apellidos;
-	private $correo;
-	private $sexo;
+	private $apellidosP;
+	private $apellidosM;
+	private $numero_ducmento;
 	private $fecha_nacimiento;
-	private $dni;
+	private $sexo;
+	private $direccion;
+	private $telefono;
+	//private documento;
+	//private ecivil;
 
 	public function __GET($x)
 	{ 
