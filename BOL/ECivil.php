@@ -1,11 +1,10 @@
 <?php
-class Competencias
+class estadoCivil
 {
-	private $nombreCompetencia;
-	private $numeroCo;
+    private $id_ecivil;
+    private $estado_civil;
 
-
-	public function __GET($x)
+    public function __GET($x)
 	{ 
 		return $this->$x; 
 	}

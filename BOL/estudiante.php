@@ -1,9 +1,8 @@
-<?php
-class Competencias
+<?php 
+class Estudiante
 {
-	private $nombreCompetencia;
-	private $numeroCo;
-
+	private $id_persona;
+	private $codigo_estudiante;
 
 	public function __GET($x)
 	{ 
@@ -13,5 +12,8 @@ class Competencias
 	{ 
 		return $this->$x = $y; 
 	}
+
 }
+
+
 ?>
