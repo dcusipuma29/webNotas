@@ -1,3 +1,4 @@
+
 <?php
 require_once('../BOL/competencias.php');
 require_once('../DAO/competenciaDAO.php');
